@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/portofolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+    />
+    <title>Febriany Renata</title>
+
+    <!-- Logo title -->
+    <link rel="icon" type="image/x-icon" href="/views/pages/profile.jpg" />
+  </head>
+  <body>
+    <%- include('components/navbar') %>
+
+    <!-- sidebar -->
+    <input type="checkbox" id="check" />
+    <div class="sidebar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- header -->
+    <header>
+      <div class="container">
+        <h1><a href="/">Febriany Renata</a></h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- menu mobile -->
+
+        <label for="check" class="mobile-menu"
+          ><i class="fa-solid fa-bars fa-2x"></i
+        ></label>
+      </div>
+    </header>
+    <!-- akhir Header -->
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <div class="banner-left">
+          <img src="/views/pages/profile.jpg" alt="" />
+          <h2>
+            Hallo...<br />
+            Saya adalah seorang <span class="efek-mengetik"></span>
+          </h2>
+          <p>Selamat datang di portofolio Saya</p>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Banner -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h3>About</h3>
+        <p>
+          Halo perkenalkan nama saya Febriany Renata Fokus di bidang HTML, CSS,
+          JavaScript, PHP & MERN Mongo DB, Express, React, Node JS, Laravel & UI
+          / UX.
+        </p>
+
+        <p>
+          Pengalaman Belajar selama 1 tahun 2020 sampai 2021, bahasa yang di
+          gunakan JavaSript. Resolusi saya di tahun 2023 lebih semangat belajar,
+          Bahasa pemrograman yang Saya pelajari dan gunakan sekarang yaitu
+          Express, Node JS & Mongo DB sekarang sedang menguasai Typescript
+        </p>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h3>Skills</h3>
+        <h4>HTML</h4>
+        <div class="bar">
+          <span class="nilai html">90%</span>
+        </div>
+
+        <h4>CSS</h4>
+        <div class="bar">
+          <span class="nilai css">85%</span>
+        </div>
+
+        <h4>JavaScript</h4>
+        <div class="bar">
+          <span class="nilai js">60%</span>
+        </div>
+
+        <h4>PHP</h4>
+        <div class="bar">
+          <span class="nilai php">40%</span>
+        </div>
+
+        <h4>MERN</h4>
+        <div class="bar">
+          <span class="nilai mern">60%</span>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Skills -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h3>Projects</h3>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 1</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 2</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 3</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 4</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 5</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 6</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 7</span>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Projects 8</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <label for="fname">Nama</label>
+        <input type="text" id="name" name="nama" placeholder="Your name.." />
+
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email.." />
+
+        <a href="">
+          <input type="submit" value="Submit" />
+        </a>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <section id="gallery">
+      <div class="container">
+        <h3>Gallery</h3>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 1</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 2</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 3</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 4</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 5</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 6</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 7</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 8</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 9</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 10</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 11</span>
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="">
+            <img src="/Asset/313.jpeg" alt="" />
+            <span>Gallery 12</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <span
+          >Created <i class="fa-duotone fa-stars"></i> by Febriany Renata</span
+        >
+      </div>
+    </footer>
+    <!-- Akhir footer -->
+
+    <script src="portofolio.js"></script>
+  </body>
+</html>
